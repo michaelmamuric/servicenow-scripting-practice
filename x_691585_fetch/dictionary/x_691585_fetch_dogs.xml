@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Dogs" max_length="40" name="x_691585_fetch_dogs" type="collection">
+        <element label="Adoption centre" max_length="32" name="adoption_centre" reference="x_691585_fetch_adoption_centre" type="reference"/>
         <element label="Age" max_length="40" name="age" type="integer"/>
         <element label="Bio" max_length="4000" name="bio" type="string"/>
         <element choice="1" label="Breed" max_length="40" name="breed" type="choice">
@@ -21,5 +22,8 @@
                 <element inactive_on_update="false" label="Adopted" sequence="3" value="adopted"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="adoption_centre"/>
+        </index>
     </element>
 </database>

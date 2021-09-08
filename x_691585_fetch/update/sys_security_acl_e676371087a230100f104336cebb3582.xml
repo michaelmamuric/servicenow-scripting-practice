@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_691585_fetch_adoption_centre</description>
+        <name>x_691585_fetch_adoption_centre</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-08 18:44:14</sys_created_on>
+        <sys_id>e676371087a230100f104336cebb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_691585_fetch_adoption_centre</sys_name>
+        <sys_package display_value="Fetch" source="x_691585_fetch">df46531c872230100f104336cebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">df46531c872230100f104336cebb3587</sys_scope>
+        <sys_update_name>sys_security_acl_e676371087a230100f104336cebb3582</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-08 18:44:14</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
